@@ -14,8 +14,8 @@ class Song
     @@count += 1
   end
   
-  def song_artist
-    self.all
+  def artist
+    self.all.select{ |song| 
   
   
   
