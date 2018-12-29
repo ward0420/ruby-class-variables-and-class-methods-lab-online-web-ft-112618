@@ -32,8 +32,8 @@ class Song
   end
   
   def self.genre_count
-      binding.pry
       genres.each_with_object(Hash.new(0)) { |genre,counts| counts[genre] += 1}
+      binding.pry
     
   end
     
