@@ -13,7 +13,7 @@ class Song
   end
   
   def song_artist
-    
+    self.
   
   
   
