@@ -1,3 +1,5 @@
+require 'pry'
+
 class Song
   attr_accessor :name, :artist, :genre
   #attr_reader :name :artist :genre
@@ -30,6 +32,7 @@ class Song
   end
   
   def self.genre_count
+      binding.pry
       genres.each_with_object(Hash.new(0)) { |genre,counts| counts[genre] += 1}
     
   end
