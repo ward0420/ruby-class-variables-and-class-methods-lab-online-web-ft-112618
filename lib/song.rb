@@ -11,9 +11,11 @@ class Song
     @genre = genre
     
     @@count += 1
-    @@artist += 1
     
   end
+  
+  def all_artist
+    @artist.all 
   
   
   
