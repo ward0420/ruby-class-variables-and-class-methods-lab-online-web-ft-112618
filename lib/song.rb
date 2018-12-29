@@ -30,7 +30,7 @@ class Song
   end
   
   def genre_count
-    self.genres.count
+    self.genres.with_index 
   end
   
   
