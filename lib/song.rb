@@ -30,13 +30,10 @@ class Song
   end
   
   def genre_count
-    #self.genres.map.with_index(1) {|key, value| [key, value]}
-    self.genres.map.with_index(1) { |x, i| [i, x] }.to_h
+
     
-    end
-    
-    h3
   end
+    
   
   
   
