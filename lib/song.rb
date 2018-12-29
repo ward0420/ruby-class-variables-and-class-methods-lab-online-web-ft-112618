@@ -1,4 +1,4 @@
 class Song
-  attr_accessor = :alblum, :artist, :genre
+  attr_accessor :alblum :artist :genre
   
 end
